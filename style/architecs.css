@@ -13,3 +13,29 @@ body{
   font-weight: 400;
   font-style: normal;
 }
+.bg{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+/* nav-bar */
+.nav-bar{
+  justify-content: space-between;
+}
+.nav-iteam{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-links{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(66, 66, 66, 1);
+}
+.nav-bar, .bannar{
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
